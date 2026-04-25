@@ -85,6 +85,13 @@ h1 {
     transition: opacity 0.3s ease;
 }
 
+#cat-gif {
+    display: block !important;
+    width: 300px !important; /* Force it to be visible */
+    height: auto;
+    visibility: visible !important;
+}
+
 .buttons {
     display: flex;
     gap: 20px;
